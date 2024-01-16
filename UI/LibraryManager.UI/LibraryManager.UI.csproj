@@ -9,11 +9,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Views\" />
+    <PackageReference Include="SimpleInjector" Version="5.4.4" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="SimpleInjector" Version="5.4.4" />
+    <ProjectReference Include="..\..\CrossCutting\LibraryManager.Core\LibraryManager.Core.csproj" />
   </ItemGroup>
 
 </Project>

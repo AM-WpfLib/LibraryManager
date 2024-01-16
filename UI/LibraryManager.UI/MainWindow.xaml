@@ -4,13 +4,38 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LibraryManager.UI"
+        xmlns:usercontrol="clr-namespace:LibraryManager.UI.Views"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    
-    <Grid>
 
-        <TextBlock Text="{Binding Title}"/>
+    <Grid>
+        <TabControl>
+            <TabItem MinWidth="150" MinHeight="35" Header="Add Student">
+
+                <usercontrol:StudentView DataContext="{Binding StudentViewModel}"/>
+
+            </TabItem>
+
+            <TabItem MinWidth="150" MinHeight="35" Header="Add Author">
+
+                <usercontrol:AuthorView/>
+                
+            </TabItem>
+
+            <TabItem MinWidth="150" MinHeight="35" Header="Add Book">
+
+                <usercontrol:BookView/>
+                
+            </TabItem>
+
+            <TabItem MinWidth="150" MinHeight="35" Header="Borrow Book">
+
+                <usercontrol:BorrowView/>
+
+            </TabItem>
+
+        </TabControl>
 
     </Grid>
-    
+
 </Window>

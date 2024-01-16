@@ -21,6 +21,7 @@ namespace LibraryManager.UI
             // Register Business
 
             // Register UI
+            _container.RegisterSingleton<IStudentViewModel, StudentViewModel>();
             _container.RegisterSingleton<IMainWindowViewModel, MainWindowViewModel>();
             _container.RegisterSingleton<MainWindow>();
 
