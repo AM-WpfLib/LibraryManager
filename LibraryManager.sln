@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryManager.UI", "UI\LibraryManager.UI\LibraryManager.UI.csproj", "{5991B5A8-82C1-4C64-AA3F-51215ADA6427}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{47114AD5-64E9-4914-ABE4-00502FE523B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{439B336D-C262-4825-AD34-65039350C9AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CrossCutting", "CrossCutting", "{4E23E4EE-7666-451F-907F-C651548948DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5991B5A8-82C1-4C64-AA3F-51215ADA6427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5991B5A8-82C1-4C64-AA3F-51215ADA6427}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5991B5A8-82C1-4C64-AA3F-51215ADA6427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5991B5A8-82C1-4C64-AA3F-51215ADA6427}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5991B5A8-82C1-4C64-AA3F-51215ADA6427} = {0C28F26D-7D63-4991-8FBC-125188C45DFE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AFC8E7F7-BB20-4175-9EF4-70B3DCD09197}
+	EndGlobalSection
+EndGlobal
